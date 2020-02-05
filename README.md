@@ -43,5 +43,41 @@ GoStack-Gobarber
 | **youch** | https://www.npmjs.com/package/youch |
 
 ## :small_blue_diamond: Pré-requisitos
+ Esse projeto faz uso de algumas tecnologias de uso obrigario e que são necessarias serem instaldas no sistema. São elas:
+  **Nodejs** na versão **12.14.1** ou superior, **postgreSql**, **MongoDB** e o **Redis**.
 
+## :mega: Como Usar
 
+* **Download**
+  
+  Para fazer o download do projeto abra o **```terminal```** e execute o comando abaixo: 
+  ```
+  git clone https://github.com/bhyago/Fast-feet.git
+  ```
+* **Instalando as Dependências** 
+
+  Para instalar as dependências necessarias e gerar a pasta **```node_modules```** execute o comando:
+  ```
+  yarn
+  ```
+  
+* **Incializando as variaveis de ambiente**
+
+  Dentro do diretorio **``` ./gobarber/.env.example```**, altere os dados de acordo com a configuração das suas variaveis de ambiente e depois renomeie o arquivo para **```.env```**.
+
+* **Inicialização do servidor**
+
+  Para inicializar o servidor, no terminal execute o comando:
+  ```
+  yarn dev
+  ```
+  Se desejar iniciar o servidor juntamente com **```degub```** do **```vscode```**, execute o seguinte comando:
+  ```
+  yarn dev:degub
+  ```
+ #### :memo: Licença
+
+  Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+  
+ ##### **Feito com :heart: by Hyago Braga**
